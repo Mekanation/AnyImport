@@ -23,7 +23,7 @@ from tkinter import filedialog
 
 ### Asks for file
 
-root = Tkinter.Tk()
+root = tk.Tk()
 root.withdraw() ##remove this when mapping portion is ready //Todo
 
 file_path = filedialog.askopenfilename()
