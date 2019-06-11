@@ -20,7 +20,6 @@ from tkinter import filedialog
 
 
 
-
 ### Asks for file
 
 root = tk.Tk()
@@ -28,4 +27,7 @@ root.withdraw() ##remove this when mapping portion is ready //Todo
 
 file_path = filedialog.askopenfilename()
 
+source = pd.read_excel(file_path)
 
+
+print(source.columns.tolist())
