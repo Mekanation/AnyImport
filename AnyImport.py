@@ -28,6 +28,6 @@ root.withdraw() ##remove this when mapping portion is ready //Todo
 file_path = filedialog.askopenfilename()
 
 source = pd.read_excel(file_path)
+*source_cols, = source 
 
-
-print(source.columns.tolist())
+print(source_cols)
